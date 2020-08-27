@@ -1,16 +1,11 @@
 {
-  "name": "facebook/php-business-sdk",
-  "description": "PHP SDK for Facebook Business",
+  "name": "jiajiagithub/php-business-sdk",
+  "description": "PHP SDK for Facebook Business, test",
   "type": "library",
   "keywords": [
-    "facebook",
-    "ads",
-    "business",
-    "sdk",
-    "instagram",
-    "page"
+    "test"
   ],
-  "homepage": "https://developers.facebook.com/",
+  "homepage": "https://github.com/jiajiagithub/facebook-php-business-sdk",
   "require": {
     "guzzlehttp/guzzle": "^6.5"
   },

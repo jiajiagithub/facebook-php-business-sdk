@@ -96,6 +96,9 @@ class Session implements SessionInterface {
    * @return array
    */
   public function getRequestParameters() {
+      return array(
+          'access_token' => $this->getAccessToken(),
+      );
     if ($this->getAppSecretProof() !== null) {
       return array(
         'access_token' => $this->getAccessToken(),
